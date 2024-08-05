@@ -1,0 +1,18 @@
+{
+  "name": "solana-parcel-project",
+  "version": "1.0.0",
+  "description": "A project using Solana, Express, and Parcel",
+  "scripts": {
+    "start": "node app.js",
+    "build": "parcel build src/index.html --dist-dir dist"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.66.2",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
